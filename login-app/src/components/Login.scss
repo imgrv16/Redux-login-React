@@ -1,0 +1,51 @@
+.login__wrapper{
+    .login__form{
+        margin: auto;
+        width: 30%;
+        border: 3px solid green;
+        border-radius: 15px;
+        padding: 2em;
+        margin-top: 10em;
+        .email__field,.pwd__field{
+            display: flex;
+            justify-content: center;
+            input{
+                width: 50%;
+                margin: 1.5em;
+            }
+        }
+
+        .field__error{
+            display: flex;
+            justify-content: center;
+            .warning {
+                color: #9F6000;
+                background-color: #FEEFB3;
+                background-image: url('https://i.imgur.com/Z8q7ww7.png');
+            }
+            .error{
+                color: #D8000C;
+                background-color: #FFBABA;
+                background-image: url('https://i.imgur.com/GnyDvKN.png');
+            }
+            .warning, .error {
+                border: 1px solid;
+                border-radius: 10px;
+                // margin: 10px 0px;
+                padding: 8px 5px 5px 8px;
+                background-repeat: no-repeat;
+                width: 50%;
+                text-align: center;
+                background-position: 10px center;
+            }
+
+                // border:1px solid red;
+            }
+
+        .btn__field{
+            display: flex;
+            justify-content: center;
+            margin-top: 2em;
+        }
+    }
+    }
